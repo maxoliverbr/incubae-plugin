@@ -1,0 +1,18 @@
+{
+  "name": "incubae",
+  "owner": { "name": "3Flux", "email": "max.oliver@3flux.com" },
+  "metadata": {
+    "description": "Incubae — entrepreneur-support program evaluator for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "incubae",
+      "source": "./",
+      "description": "Detect baloney accelerators/incubators, score program fit, audit real value, draft applications, and prep selection interviews.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": ["startup", "accelerator", "incubator", "founder", "program"]
+    }
+  ]
+}
