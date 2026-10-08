@@ -2,10 +2,12 @@
   "name": "incubae",
   "version": "1.0.0",
   "description": "Entrepreneur-support program evaluator: detect baloney accelerators, score program fit, audit real value beyond the badge, draft applications, and prep selection interviews",
+  "icon": "./assets/icon.png",
   "author": {
     "name": "3Flux",
     "email": "max.oliver@3flux.com"
   },
   "repository": "https://github.com/maxoliverbr/incubae-plugin",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/maxoliverbr/incubae-plugin"
 }

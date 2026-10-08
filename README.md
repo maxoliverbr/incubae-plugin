@@ -142,6 +142,19 @@ A scarred founder who thinks most programs are theater asks the 10 hardest quest
 
 ---
 
+## Privacy
+
+Incubae is a set of prompt-based skills. It has no server, no telemetry, no analytics, and no hooks or MCP servers. The authors receive no data.
+
+- **Local files:** skills read your `STARTUP_PROFILE.md` and write `.md` reports to your working directory. Nothing leaves your machine except through Claude Code itself.
+- **Claude:** the content you work with is processed by Claude under your Anthropic account terms ([Anthropic Privacy Policy](https://www.anthropic.com/legal/privacy)).
+- **Web research:** `/inclist` and `/incposer` use Claude Code's WebSearch and WebFetch tools. Search queries (program names, sector, stage and geography terms) go to the search provider, and program websites are fetched. Your full profile is never sent to third-party sites.
+- **Install:** `install.sh` only clones this repository from GitHub and edits your local Claude Code settings.
+
+Questions: max.oliver@3flux.com
+
+---
+
 ## License
 
 MIT © 2026 3Flux
